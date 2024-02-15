@@ -1,0 +1,14 @@
+
+
+
+
+
+```{r}
+library(MERINGUE)
+for (i in length(pos_E)) {
+  MERINGUE::plotEmbedding(pos_E[[x]], col = colSums(countmat_E[[x]]))
+}
+
+
+```
+
